@@ -1,0 +1,31 @@
+{
+  "name": "find-cities",
+  "version": "1.0.0",
+  "description": "Find the nearest cities to a set of coordinates, using a libarary of cities, and kdbush library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parsasi/find-cities.git"
+  },
+  "keywords": [
+    "coordinates",
+    "finding",
+    "cities",
+    "geographical",
+    "util"
+  ],
+  "author": "Parsa Safavi (@parsasi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parsasi/find-cities/issues"
+  },
+  "homepage": "https://github.com/parsasi/find-cities#readme",
+  "dependencies": {
+    "@turf/distance": "^6.0.1",
+    "geokdbush": "^1.1.0",
+    "kdbush": "^3.0.0"
+  }
+}
